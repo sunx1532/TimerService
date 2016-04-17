@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.jikexueyuan.timerservice.MainActivity">
+    tools:context="com.jikexueyuan.secondapplication.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="Unbind Service"
-        android:id="@+id/BtnUnbindService" />
+        android:id="@+id/btnUnbindService" />
 
     <TextView
         android:layout_width="wrap_content"
