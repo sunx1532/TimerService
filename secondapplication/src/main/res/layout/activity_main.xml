@@ -10,6 +10,13 @@
     android:orientation="vertical"
     tools:context="com.jikexueyuan.secondapplication.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Second Application"
+        android:id="@+id/tvTitle" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

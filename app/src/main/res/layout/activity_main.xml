@@ -10,6 +10,13 @@
     android:orientation="vertical"
     tools:context="com.jikexueyuan.timerservice.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Timer Service app"
+        android:id="@+id/tvTitle" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +29,7 @@
         android:layout_height="wrap_content"
         android:textAllCaps="false"
         android:text="Unbind Service"
-        android:id="@+id/BtnUnbindService" />
+        android:id="@+id/btnUnbindService" />
 
     <TextView
         android:layout_width="wrap_content"
